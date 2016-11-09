@@ -1,0 +1,15 @@
+{
+  "name": "atelier-nodejs",
+  "version": "1.0.0",
+  "description": "Un petit serveur HTTP et un petit bot twitter :)",
+  "dependencies": {
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Clément Charmet <cl3mos@gmail.com> (http://github.com/clemos)",
+  "license": "ISC"
+}
