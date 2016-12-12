@@ -8,7 +8,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node server.js"
   },
   "author": "Clément Charmet <cl3mos@gmail.com> (http://github.com/clemos)",
   "license": "ISC"
