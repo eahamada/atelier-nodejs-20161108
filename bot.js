@@ -7,6 +7,7 @@ var T = new Twit({
   access_token_secret:   process.env.TWITTER_ACCESS_TOKEN_SECRET|| 'access_token_secret',
 });
 
+console.log( process.env.TWITTER_CONSUMER_KEY);
 // ecoute tous les tweet qui contiennent 'connard'
 var stream = T.stream('statuses/filter', { track: 'connard' })
 
