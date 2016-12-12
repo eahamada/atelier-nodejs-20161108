@@ -27,4 +27,4 @@ var listener = function(request,response) {
 // on crée le serveur
 var server = http.createServer(listener);
 // on écoute le port 3000 (localhost:3000)
-server.listen(3000);
+server.listen(process.env.OPENSHIFT_NODEJS_PORT || 8080);
